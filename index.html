@@ -62,7 +62,30 @@
             margin-top: 15px;
         }
 
-        footer {
+        .productos {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.productos h2 {
+    color: #b85c76;
+    font-size: 32px;
+}
+
+.producto {
+    display: inline-block;
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.producto h3 {
+    color: #d97891;
+    font-size: 22px;
+}footer {
             background-color: #e8a6b7;
             color: white;
             text-align: center;
@@ -86,16 +109,34 @@
         <a href="#">Contacto</a>
     </nav>
 
-    <section class="inicio">
-        <h2>Bienvenida a Glow Beauty ✨</h2>
-        <p>
-            Descubre productos de maquillaje, consejos de belleza
-            y todo lo que necesitas para crear tus looks favoritos.
-        </p>
+    <section class="inicio" id="inicio">
+    <h2>Bienvenida a Glow Beauty ✨</h2>
+    <p>
+        Descubre productos de maquillaje, consejos de belleza
+        y todo lo que necesitas para crear tus looks favoritos.
+    </p>
 
-        <a href="#" class="boton">Ver productos</a>
-    </section>
+    <a href="#maquillaje" class="boton">Ver productos</a>
+</section>
 
+<section id="maquillaje" class="productos">
+    <h2>💄 Nuestros productos</h2>
+
+    <div class="producto">
+        <h3>Labiales 💋</h3>
+        <p>Colores para todos tus looks.</p>
+    </div>
+
+    <div class="producto">
+        <h3>Base ✨</h3>
+        <p>Una piel uniforme y luminosa.</p>
+    </div>
+
+    <div class="producto">
+        <h3>Rubor 🌸</h3>
+        <p>Un toque de color para tus mejillas.</p>
+    </div>
+</section>
     <footer>
         <p>©️ 2026 Glow Beauty - Página de maquillaje</p>
     </footer>
