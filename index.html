@@ -105,6 +105,60 @@
 
 .consejo h3 {
     color: #d97891;
+    .contacto {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contacto h2 {
+    color: #b85c76;
+    font-size: 32px;
+}
+
+.contacto form {
+    background-color: white;
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.contacto label {
+    display: block;
+    margin-top: 15px;
+    color: #b85c76;
+    font-weight: bold;
+}
+
+.contacto input,
+.contacto textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #e8a6b7;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.contacto textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contacto button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #d97891;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
 }
 }footer {
             background-color: #e8a6b7;
@@ -174,6 +228,23 @@
         <h3>Rubor 🌸</h3>
         <p>Un toque de color para tus mejillas.</p>
     </div>
+</section> 
+        <section id="contacto" class="contacto">
+    <h2>📩 Contáctanos</h2>
+    <p>Déjanos tu mensaje y nos pondremos en contacto contigo.</p>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="Escribe tu correo">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+
+        <button type="submit">Enviar mensaje 💌</button>
+    </form>
 </section>
     <footer>
         <p>©️ 2026 Glow Beauty - Página de maquillaje</p>
